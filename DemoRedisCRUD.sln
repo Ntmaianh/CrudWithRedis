@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dedis.API", "Dedis.API\Dedis.API.csproj", "{653572C4-0B03-4D56-B3E4-8A348814AA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.DAL", "Redis.DAL\Redis.DAL.csproj", "{F58DC805-41B1-471F-A033-4AA13E018B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Model", "Redis.Model\Redis.Model.csproj", "{D076B65C-4F0C-48F4-B545-85D0005E0A98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653572C4-0B03-4D56-B3E4-8A348814AA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653572C4-0B03-4D56-B3E4-8A348814AA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653572C4-0B03-4D56-B3E4-8A348814AA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653572C4-0B03-4D56-B3E4-8A348814AA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58DC805-41B1-471F-A033-4AA13E018B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58DC805-41B1-471F-A033-4AA13E018B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58DC805-41B1-471F-A033-4AA13E018B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58DC805-41B1-471F-A033-4AA13E018B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D076B65C-4F0C-48F4-B545-85D0005E0A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D076B65C-4F0C-48F4-B545-85D0005E0A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D076B65C-4F0C-48F4-B545-85D0005E0A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D076B65C-4F0C-48F4-B545-85D0005E0A98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {062BC5BD-ED75-4179-8FD0-7A3F45A17D9E}
+	EndGlobalSection
+EndGlobal
